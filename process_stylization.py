@@ -40,7 +40,7 @@ class Timer:
 def memory_limit_image_resize(cont_img):
     # prevent too small or too big images
     MINSIZE=256
-    MAXSIZE=960
+    MAXSIZE=4000
     orig_width = cont_img.width
     orig_height = cont_img.height
     if max(cont_img.width,cont_img.height) < MINSIZE:
